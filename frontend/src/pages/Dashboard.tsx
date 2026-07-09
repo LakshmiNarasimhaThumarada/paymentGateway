@@ -7,9 +7,7 @@ import {
   User,
   Shield,
   Activity,
-  Database,
   Cpu,
-  Layers,
   Terminal,
   Settings,
   AlertOctagon,
@@ -17,7 +15,6 @@ import {
   CheckCircle,
   AlertCircle,
   RefreshCw,
-  Eye,
   Lock,
   Download,
   Users
