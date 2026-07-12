@@ -13,5 +13,14 @@ export default defineConfig({
         secure: false,
       }
     }
+  },
+  preview: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8081',
+        changeOrigin: true,
+        secure: false,
+      }
+    }
   }
 })
