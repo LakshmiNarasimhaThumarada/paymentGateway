@@ -1,0 +1,23 @@
+{
+  "name": "gateway",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "dev:backend": "powershell -Command \"cd backend; ./gradlew bootRun\"",
+    "build:backend": "powershell -Command \"cd backend; ./gradlew build -x test\""
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2"
+  }
+}
